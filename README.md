@@ -230,7 +230,7 @@ relacionados a cada objetivo de aprendizado.
         para exibir o _comprimento médio das palavras_ deve ter um atributo
         `data-testid` com o valor `word-length-average`.
 
-  + [ ] A aplicação possui um rodapé composto por um
+  + [x] A aplicação possui um rodapé composto por um
         [`<footer>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/footer)
         que é pai de um
         [`<p>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/p)
@@ -238,7 +238,7 @@ relacionados a cada objetivo de aprendizado.
         Para que você possa praticar mais, esses elementos não podem
         ter atributos `id`, `name` ou `class`.
 
-  + [ ] A aplicação utiliza um
+  + [x] A aplicação utiliza um
         [`<button>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/button)
         com o atributo `id` com o valor `reset-button` para permitir à usuária,
         através de um clique, limpar o conteúdo da caixa de texto.
