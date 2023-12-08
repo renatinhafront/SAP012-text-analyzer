@@ -397,17 +397,17 @@ relacionados a cada objetivo de aprendizado.
 
 - **GitHub: Criação de conta e repositórios, configuração de chaves SSH**
 
-  + [ ] A estudante criou uma conta no Github.
+  + [x] A estudante criou uma conta no Github.
 
-  + [ ] A estudante configurou sua conta do Github com uma chave SSH.
+  + [x] A estudante configurou sua conta do Github com uma chave SSH.
 
 - **Git: Controle de versões com git (clone, add, commit, push)**
 
-  + [ ] A estudante criou um _fork_ para o projeto.
+  + [x] A estudante criou um _fork_ para o projeto.
 
-  + [ ] A estudante clonou seu repositório usando uma chave SSH.
+  + [x] A estudante clonou seu repositório usando uma chave SSH.
 
-  + [ ] A estudante criou _commits_ e os salvou no Github.
+  + [x] A estudante criou _commits_ e os salvou no Github.
 
 - **GitHub: Implantação com GitHub Pages**
 
