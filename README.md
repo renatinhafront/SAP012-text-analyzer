@@ -187,46 +187,46 @@ relacionados a cada objetivo de aprendizado.
 
 - **Uso de HTML semântico**
 
-  + [ ] A aplicação possui um cabeçalho composto por um
+  + [x] A aplicação possui um cabeçalho composto por um
         [`<header>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/header)
         que é pai de um
         [`<h1>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Heading_Elements)
         com o texto `Analisador de texto`. Para que você possa praticar mais, esses
         elementos não podem ter atributos `id`, `name` ou `class`.
 
-  + [ ] A aplicação utiliza um
+  + [x] A aplicação utiliza um
         [`<textarea>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/textarea)
         com o atributo `name` com o valor `user-input` para permitir à usuária
         inserir um texto. Para que você possa praticar mais, este elemento não pode
         ter atributos `id` ou `class`.
 
-  + [ ] A aplicação utiliza uma
+  + [x] A aplicação utiliza uma
         [`<ul>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/ul)
         com 6 filhos [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li),
         um para exibir cada métrica. Para que você possa praticar mais, esses
         elementos não podem ter atributos `id`, `name` ou filhos.
 
-  + [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
+  + [x] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
         para exibir a _contagem de palavras_ deve ter um atributo
         `data-testid` com o valor `word-count`.
 
-  + [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
+  + [x] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
         para exibir a _contagem de caracteres_ deve ter um atributo
         `data-testid` com o valor `character-count`.
 
-  + [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
+  + [x] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
         para exibir a _contagem de caracteres excluindo espaços e sinais de pontuação_
         deve ter um atributo `data-testid` com o valor `character-no-spaces-count`.
 
-  + [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
+  + [x] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
         para exibir a _contagem de números_ deve ter um atributo
         `data-testid` com o valor `number-count`.
 
-  + [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
+  + [x] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
         para exibir a _soma total de números_ deve ter um atributo
         `data-testid` com o valor `number-sum`.
 
-  + [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
+  + [x] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
         para exibir o _comprimento médio das palavras_ deve ter um atributo
         `data-testid` com o valor `word-length-average`.
 
