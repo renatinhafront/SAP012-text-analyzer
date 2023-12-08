@@ -9,21 +9,24 @@
 </head>
 
 <body>
-  <div class="container">
-    <h1>Analizador de texto</h1>
-    <input disabled id="caracteres" value="Caracteres: "></input><br>
-    <input disabled id="caracteres-sem-espaço" value="Caracteres sem espaço: "></input><br>
-    <input disabled id="palavras" value="Palavras: "></input><br>
-    <input disabled id="numeros" value="Números: "></input><br>
-    <input disabled id="soma-dos-números" value="Soma dos números: "></input><br>
-    <input disabled id="comprimento-medio" value="Comprimento médio: "></input><br>
-  </div>
-  
-  <div>
-    <p><label for="input"></label></p>  
-    <textarea id="input" name="input" rows="3" cols="40"></textarea></textarea>
-    <p><input type="button" name="Limpar" value="Limpar"></p>
-  </div>  
+    <header>
+      <h1>Analizador de texto</h1>
+    </header>
+    
+    <textarea name="user-input"></textarea>
+
+      <ul>
+        <li data-testid="word-count">Contagem de palavras: </li>
+        <li data-testid="character-count">Contagem de caracteres: </li>
+        <li data-testid="character-no-spaces-count">Contagem de caracteres excluindo espaços e sinais pontuação: </li>
+        <li data-testid="nuber-count">Contagem de números:</li>
+        <li data-testid="number-sum">Soma total de números: </li>
+        <li data-testid="word-length-average">Comprimento médio das palavras: </li>
+      </ul>
+
+    <footer><p>Renata Saraiva</p></footer>
+
+    <button id="reset-button"></button>
 
     <script src="index.js" type="module"></script>
   
