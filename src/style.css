@@ -16,7 +16,7 @@ ul {
 
 ul li {
     list-style-type: none;
-    border: 1px solid black;
+    border: 2px solid #888b8c;
     border-radius: 5px; 
     padding: 5px;
     font-family: Arial;
@@ -40,7 +40,6 @@ textarea {
 }
 
 textarea:hover {
-
     border: 2px solid #42a5d6; 
 }
 .container-button {
@@ -53,6 +52,7 @@ textarea:hover {
     height: 50px; 
     border: none;
     color: white;
+    cursor: pointer;
 }
 
 
@@ -61,8 +61,3 @@ footer {
     font-family: Verdana;
     padding: 20px;
 }
-
-
-
-
-
