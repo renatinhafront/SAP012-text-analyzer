@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>Analizador de texto</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="index.js" type="module"></script>
+    
 
   </head>
 
@@ -19,18 +19,17 @@
 
       <div>
           <ul>
-            <li data-testid="word-count">Contagem de palavras:</li>
-            <li data-testid="character-count">Contagem de caracteres:</li>
-            <li data-testid="character-no-spaces-count">Contagem de caracteres excluindo espaços e sinais pontuação:</li>
-            <li data-testid="nuber-count">Contagem de números:</li>
-            <li data-testid="number-sum">Soma total de números:</li>
-            <li data-testid="word-length-average">Comprimento médio das palavras:
-            </li>
+            <li data-testid="word-count">Contagem de palavras:  </li>
+            <li data-testid="character-count">Contagem de caracteres:  </li>
+            <li data-testid="character-no-spaces-count">Contagem de caracteres excluindo espaços e sinais pontuação:  </li>
+            <li data-testid="nuber-count">Contagem de números:  </li>
+            <li data-testid="number-sum">Soma total de números:  </li>
+            <li data-testid="word-length-average">Comprimento médio das palavras:  </li>
           </ul>
       </div>
 
       <div class="container-input">
-        <textarea name="user-input"></textarea>
+        <textarea name="user-input" minlength=" " placeholder="Escreva aqui..."></textarea>
       </div>
 
       <div class="container-button">
@@ -41,5 +40,7 @@
 
       
     </div>
+
+    <script src="index.js" type="module"></script>
   </body>
 </html>
