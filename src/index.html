@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <main class="container">
+    <main id="container">
 
       <div>
         <header>
@@ -17,25 +17,23 @@
         </header>
       </div>  
 
-      <section>
+      <article>
           <ul>
-            <li data-testid="word-count">Contagem de palavras:  </li>
-            <li data-testid="character-count">Contagem de caracteres:  </li>
-            <li data-testid="character-no-spaces-count">Contagem de caracteres excluindo espaços e sinais pontuação:  </li>
-            <li data-testid="nuber-count">Contagem de números:  </li>
-            <li data-testid="number-sum">Soma total de números:  </li>
-            <li data-testid="word-length-average">Comprimento médio das palavras:  </li>
+            <li class="contador" data-testid="word-count">Contagem de palavras:  </li>
+            <li class="contador" data-testid="character-count">Contagem de caracteres:  </li>
+            <li class="contador" data-testid="character-no-spaces-count">Contagem de caracteres excluindo espaços e sinais pontuação:  </li>
+            <li class="contador" data-testid="nuber-count">Contagem de números:  </li>
+            <li class="contador" data-testid="number-sum">Soma total de números:  </li>
+            <li class="contador" data-testid="word-length-average">Comprimento médio das palavras:  </li>
           </ul>
-      </section>
+      </article>
 
-      <div class="container-input">
+      <div>
         <textarea name="user-input" minlength=" " placeholder="Escreva aqui..."></textarea>
       </div>
 
-      <div class="container-button">
-        <button id="reset-button">Limpar</button>
-      </div>
-
+        <button id="reset-button">Limpar</button> 
+     
       <footer><p>Autora: Renata Saraiva</p></footer>
 
       

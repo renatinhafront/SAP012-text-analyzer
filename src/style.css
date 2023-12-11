@@ -1,4 +1,4 @@
-.container {
+#container {
     text-align: center;
 }
   
@@ -6,28 +6,21 @@ header {
   font-family: Arial; 
 }
 
-
 ul {
-    display: flex;
-    justify-content: space-evenly;
-    grid-row-gap: 20px;
-        
+    display: inline;
 }
 
-ul li {
+.contador {
     list-style-type: none;
     border: 2px solid #888b8c;
     border-radius: 5px; 
-    padding: 5px;
     font-family: Arial;
-    font-size: 14px;
+    font-size: 12px;
+    width: 100px;
+    height: 50px;
 }
 
-.word-count, .nuber-count {
-    text-align: left;
-} 
-
-textarea {
+textarea[name="user-input"] {
     background-color: white;
     border-color: #6c6e6f;
     margin: 60px 60px;
@@ -36,14 +29,10 @@ textarea {
     border-radius: 10px;
     font-family: Courier;
     font-size: 25px; 
-       
 }
 
 textarea:hover {
     border: 2px solid #42a5d6; 
-}
-.container-button {
-    display: inline-block;
 }
 
 #reset-button {
