@@ -1,20 +1,17 @@
-//preparação do ambiente do teste - é onde fazemos as implantações necessárias
 import analyzer from './analyzer.js';
 
 //TODO: escuchar eventos del DOM e invocar  los métodos del objeto `analyzer`
 
-//ESTUDO
-//descreveno o segmento a ser testado
-        // implementar os teste especificos 
+//console log
 
-describe('Testes sobre a função de soma', () => {
-    it('deve retornar um número positivo quando forem somados dois números positivos', () => {
-        let n1 = 3
-        let n2 = 4
-        const resp = 7
+//Retorna o primeiro elemento dentro do documento 
+let element = document.querySelector('textarea[name="user-input"]');
+console.log(element.value);
 
-        expect(somar(n1,n2)).toBeEqual(resp)
-    }) 
-}); //arrow function
-describe('Testes sobre a função de subtração');
-describe('Testes sobre a função de multiplicação')
+//Retorna a referência do elemento através do seu ID.
+const button = document.getElementById("reset-button");
+console.log(reset-button)
+button.onclick = function(){
+    alert(element.value);
+}
+
