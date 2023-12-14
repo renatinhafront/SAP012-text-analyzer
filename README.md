@@ -274,7 +274,7 @@ relacionados a cada objetivo de aprendizado.
 
 - **Modelo de caixa (box model): borda, margem, preenchimento**
 
-  + [ ] As
+  + [x] As
         [`classes CSS`](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#class_selectors)
         dos
         [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
@@ -291,10 +291,10 @@ relacionados a cada objetivo de aprendizado.
 
 - **Uso de seletores do DOM**
 
-  + [ ] A aplicação utiliza o
+  + [x] A aplicação utiliza o
         [`seletor do DOM querySelector`](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector).
 
-  + [ ] A aplicação utiliza o
+  + [x] A aplicação utiliza o
         [`seletor do DOM getElementById`](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementById).
 
 - **Manipulação de eventos do DOM (ouvintes, propagação, delegação)**
@@ -304,7 +304,7 @@ relacionados a cada objetivo de aprendizado.
         para ouvir o evento `keyup` do `<textarea>` e atualizar as métricas
         quando o texto for digitado na caixa de texto.
 
-  + [ ] A aplicação registra um
+  + [x] A aplicação registra um
         [Event Listener](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener)
         para ouvir o evento `click` do `<button>` que limpa o conteúdo da caixa
         de texto.
@@ -333,7 +333,7 @@ relacionados a cada objetivo de aprendizado.
 
 - **Variáveis (declaração, atribuição, escopo)**
 
-  + [ ] A aplicação declara variáveis com
+  + [x] A aplicação declara variáveis com
         [`let`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/let)
         e
         [`const`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/const).
