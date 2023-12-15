@@ -1,17 +1,19 @@
-import analyzer from './analyzer.js';
+//import analyzer from './analyzer.js';
 
 //TODO: escuchar eventos del DOM e invocar  los métodos del objeto `analyzer`
 
-//console log
+//váriavel pra usar dentro do bloco
 
 //Retorna o primeiro elemento dentro do documento 
-let element = document.querySelector('textarea[name="user-input"]');
-console.log(element.value);
+const element = document.querySelector('textarea[name="user-input"]');
+element.addEventListener('keyup', function() {
+    element.value = "";
+}); 
+
 
 //Retorna a referência do elemento através do seu ID.
-const button = document.getElementById("reset-button");
-console.log(reset-button)
-button.onclick = function(){
-    alert(element.value);
-}
+let button = document.getElementById("reset-button");
+button.addEventListener('click', function() {
+    element.value = "";
+}); 
 

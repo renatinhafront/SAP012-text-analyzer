@@ -15,7 +15,7 @@ const analyzer = {
   getNumberCount: (nuber-sum) => {
     //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
   },
-  getNumberSum: (ord-length-average) => {
+  getNumberSum: (word-length-average) => {
     //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
   },
 };
