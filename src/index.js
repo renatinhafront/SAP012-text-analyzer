@@ -30,7 +30,7 @@ let comprimentoCountText = comprimentoCount.textContent
 
 //Retorna o primeiro elemento dentro do documento 
 let textArea = document.querySelector('textarea[name="user-input"]');
-textArea.addEventListener('keyup', function() {
+textArea.addEventListener('input', function() {
    
    wordCount.textContent = wordCountText + analyzer.getWordCount(textArea.value);
    characterCount.textContent = characterCountText + analyzer.getCharacterCount(textArea.value);
