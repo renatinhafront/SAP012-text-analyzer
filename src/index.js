@@ -1,19 +1,49 @@
-//import analyzer from './analyzer.js';
-
+import analyzer from './analyzer.js';
 //TODO: escuchar eventos del DOM e invocar  los métodos del objeto `analyzer`
 
-//váriavel pra usar dentro do bloco
+//querySelector = Busca o elemento no HTML atraves do atributo data-testid
+
+// Contador de palavras
+let wordCount = document.querySelector('[data-testid="word-count"]');
+let wordCountText = wordCount.textContent
+
+// Contador de caracteres
+let characterCount = document.querySelector('[data-testid="character-count"]');
+let characterCountText = characterCount.textContent
+
+// Contador de numeros
+let numberCount = document.querySelector('[data-testid="number-count"]');
+let numberCountText = numberCount.textContent
+
+
+
+
 
 //Retorna o primeiro elemento dentro do documento 
-const element = document.querySelector('textarea[name="user-input"]');
-element.addEventListener('keyup', function() {
-    element.value = "";
-}); 
-
+let textArea = document.querySelector('textarea[name="user-input"]');
+textArea.addEventListener('keyup', function() {
+   
+   wordCount.textContent = wordCountText + analyzer.getWordCount(textArea.value);
+   characterCount.textContent = characterCountText + analyzer.getCharacterCount(textArea.value);
+   numberCount.textContent = numberCountText + analyzer.getNumberCount(textArea.value);
+});   
 
 //Retorna a referência do elemento através do seu ID.
 let button = document.getElementById("reset-button");
 button.addEventListener('click', function() {
-    element.value = "";
+    textArea.value = "";
 }); 
+
+
+function countWord() {
+  
+    // Get the input text value
+    let words = document
+        .getElementById("user-input").value;
+    
+}
+
+
+
+
 
