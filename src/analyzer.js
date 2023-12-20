@@ -14,6 +14,7 @@ const analyzer = {
 
     // Criei uma variavel do tipo let e atribui o valor do tamanho do texto atraves do length e converti (parseInt) o valor de string para inteiro
     const countText = parseInt(text.length)
+    //retorna a quantidade de caracteres
     return countText
   },
   getCharacterCountExcludingSpaces: (text) => {
@@ -21,6 +22,7 @@ const analyzer = {
 
     //no regex usei o ^ como negação tudo que não for caracteres especiais e espaços ele remove
     const characterExcluido = text.replace(/[^0-9a-zA-Z]/gim, '');
+    //retorna a quantidade de caracteres excluindo espacos e pontos na lista
     return characterExcluido.length
   },
   getAverageWordLength: (text) => {
@@ -30,22 +32,25 @@ const analyzer = {
     const wordTrim = text.trim();
     // Criei uma variavel do tipo let e usei o split que quebra o texto com o separador e cria uma lista de palavras
     const split = wordTrim.split(' ');
-    // criei u
-    let media = 0;
-
+    // criei uma variavel com o valor de 0, que vai armazenar a média
+    let totalCaracteres = 0;
+    //FOR para somar a quantidade de caracteres digitados, i=indice da lista, splite.length=retorna o tmanho da lista
     for (let i = 0; i < split.length; i++) {
-      media = media + split[i].length;
+      //totalcaracteres é do tipo inteiro(numero) + o tamanho da lista
+     totalCaracteres = totalCaracteres + split[i].length;
     }
-
-    const resultado = media / split.length;
-    return resultado;
+    //Criei uma constante media = numero da lista dividido pelo tamanho da lista
+    const media = totalCaracteres / split.length;
+    //retorna a media na tela
+    return media;
   },
 
   getNumberCount: (text) => {
     //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
 
-    // replace substitui o caracter de acordo com o regex informado.  
+    // replace substitui o caracter de acordo com o regex informado(extrai somente numeros e pontos).  
     const numberCount = text.replace(/\D|./gim, '');
+    //retorna a quantidade de numeros digitados
     return numberCount.length
   },
   getNumberSum: (text) => {
@@ -53,11 +58,16 @@ const analyzer = {
     const numberCount = text.replace(/\D|./gim, '');
     //
     const split = numberCount.split('');
+    //criei  uma variavel total com o valor de 0 que vai armazenar o valor total da lista
     let total = 0;
+    //FOR para somar a quantidade de caracteres digitados, i=indice da lista, splite.length=retorna o tmanho da lista
     for (let i = 0; i < split.length; i++) {
-      const valor = split[i];
-      total = total + parseFloat(valor);
+    //criei uma constante para armazenar o tamanho da palavra
+    const valor = split[i];
+    //parseFloat ele converte string(conjunto de caracteres) para numeros decimais.
+    total = total + parseFloat(valor);
     }
+    //retorno total da tela
     return total;
   },
 };
