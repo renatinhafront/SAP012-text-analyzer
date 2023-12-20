@@ -9,6 +9,7 @@ const analyzer = {
     // Retornei o tamanho da lista usando length(tamanho da lista)
     return split.length
   },
+
   getCharacterCount: (text) => {
     //TODO: esta función debe retornar el recuento de caracteres que se encuentran en el parámetro `text` de tipo `string`.
 
@@ -17,6 +18,7 @@ const analyzer = {
     //retorna a quantidade de caracteres
     return countText
   },
+
   getCharacterCountExcludingSpaces: (text) => {
     //TODO: esta función debe retornar el recuento de caracteres excluyendo espacios y signos de puntuación que se encuentran en el parámetro `text` de tipo `string`.
 
@@ -25,6 +27,7 @@ const analyzer = {
     //retorna a quantidade de caracteres excluindo espacos e pontos na lista
     return characterExcluido.length
   },
+
   getAverageWordLength: (text) => {
     //TODO: esta función debe retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string`.
 
@@ -42,20 +45,21 @@ const analyzer = {
     //Criei uma constante media = numero da lista dividido pelo tamanho da lista
     const media = totalCaracteres / split.length;
     //retorna a media na tela
-    return media;
+    return media.toFixed(0);
   },
 
   getNumberCount: (text) => {
     //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
 
     // replace substitui o caracter de acordo com o regex informado(extrai somente numeros e pontos).  
-    const numberCount = text.replace(/\D|./gim, '');
+    const numberCount = text.replace(/\D/gim, '');
     //retorna a quantidade de numeros digitados
     return numberCount.length
   },
+
   getNumberSum: (text) => {
     //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
-    const numberCount = text.replace(/\D|./gim, '');
+    const numberCount = text.replace(/\D/gim, '');
     //
     const split = numberCount.split('');
     //criei  uma variavel total com o valor de 0 que vai armazenar o valor total da lista
