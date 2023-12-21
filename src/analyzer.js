@@ -62,8 +62,8 @@ const analyzer = {
     }
     //Criei uma constante media = numero da lista dividido pelo tamanho da lista
     const media = totalCaracteres / split.length;
-    //retorna a media na tela
-    return media.toFixed(2);
+    //converte em decimal com dois digitos e retorna
+    return parseFloat(media.toFixed(2));
   },
 
   getNumberCount: (text) => {
