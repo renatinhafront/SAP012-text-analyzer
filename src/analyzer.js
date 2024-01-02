@@ -31,10 +31,10 @@ const analyzer = {
 
     //reduce() executa a função de callback uma vez para cada elemento presente no array, excluindo furos(valores indefinidos)
     const totalCharacters = words.reduce((acc, word) => acc + word.length, 0);
-    const average = totalCharacters / words.length || 0;
+    const media = totalCharacters / words.length || 0;
     //parseFloat converte a string recebida como argumento e a retorna como um número de ponto flutuante
     //toFixed para formatar casas decimais
-    return parseFloat(average.toFixed(2));
+    return parseFloat (media.toFixed(2));
   },
 
   getNumberCount: (text) => {
