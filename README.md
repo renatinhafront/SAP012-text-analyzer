@@ -18,16 +18,16 @@
 
 ## 1. Considerações gerais
 
-- Este projeto será resolvido de forma **individual**.
-- A estimativa de tempo para completar o projeto varia de 2 a 4 Sprints.
-- Concentre-se em aprender, não apenas em "completar" o projeto.
-- Sugerimos que você não tente saber tudo antes de começar a codificar.
+- Este projeto foi realizado de forma individual.
+- Com tempo de 3 Sprints de 7 dias cada.
+- Com objetivo em aprender, não apenas em "completar" o projeto.
+- Iniciei mesmo sem saber de tudo e começei a codificar.
   Não se preocupe muito com o que você _ainda_ não entende.
-  Você aprenderá ao longo do processo.
+ ainda vou aprender muito ao longo do processo.
 
-## 2. Preâmbulo
+//## 2. Preâmbulo
 
-![Uma lupa sobre texto de livro](https://github.com/Laboratoria/curriculum/assets/92090/2b45f653-69a5-4282-a65c-d34125c36113)
+![Captura de Tela 2024-01-03 às 19 13 24 Pequena Média](https://github.com/renatinhafront/SAP012-text-analyzer/assets/107226201/b2ca2192-fec7-47a0-8766-a136ad9f36fb)
 
 _Créditos: Foto de [ethan](https://unsplash.com/fr/@andallthings?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 _em [Unsplash](https://unsplash.com/es/fotos/72NpWZJOskU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
@@ -49,16 +49,16 @@ podem obter uma compreensão mais profunda dos textos.
 
 ## 3. Resumo do projeto
 
-Neste projeto, você criará uma aplicação web que permitirá que a usuária analise
+Neste projeto, eu criei uma aplicação web que permite que o usuário analise
 um texto no navegador, exibindo uma série de indicadores e métricas específicas
 sobre caracteres, letras, números, etc., que foram inseridos por ela como entrada.
-Você realizará isso usando HTML, CSS e JavaScript.
+Realizado usando HTML, CSS e JavaScript.
 
 ## 4. Funcionalidades
 
 A lista de funcionalidades é a seguinte:
 
-1. A aplicação deve permitir que a usuária insira um texto escrevendo-o
+1. A aplicação deve permitir que o usuário insira um texto escrevendo-o
     em uma caixa de texto.
 
 2. A aplicação deve calcular as seguintes métricas e atualizar o
@@ -83,12 +83,13 @@ A lista de funcionalidades é a seguinte:
 3. A aplicação deve permitir limpar o conteúdo da caixa de texto ao clicar
     em um botão.
 
-![Demonstração do analisador de texto](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650556-988dcd6f-bc46-473b-894c-888a66c9fe2d.gif "Demonstração do analisador de texto")
+![Demonstração do analisador de texto funcionando](https://github.com/renatinhafront/SAP012-text-analyzer/assets/107226201/9f82d192-a54a-40a8-8bb4-aff804493f09)
+
 
 ## 5. Boilerplate
 
 A lógica do projeto deve ser implementada completamente em JavaScript. Neste
-projeto, NÃO é permitido usar bibliotecas ou frameworks, apenas JavaScript
+projeto, NÃO foi permitido usar bibliotecas ou frameworks, apenas JavaScript
 puro, também conhecido como Vanilla JavaScript.
 
 Para começar este projeto, você precisará fazer um _fork_ e _clonar_ este
@@ -116,51 +117,44 @@ O _boilerplate_ que fornecemos contém a seguinte estrutura:
 
 ### Descrição de scripts / arquivos
 
-- `README.md`: você deve modificá-lo para explicar as informações necessárias para
-  o uso da sua aplicação web, bem como uma introdução à aplicação, sua funcionalidade
-  e decisões de design que você tomou.
-- `.github/workflows`: esta pasta contém a configuração para
-a execução do Github Actions.
-  Você não deve modificar esta pasta nem seu conteúdo.
-- `read-only/`: esta pasta contém os testes dos critérios mínimos de aceitação
-e end-to-end. Você não deve modificar esta pasta nem seu conteúdo.
+- `README.md`: Contém informações necessárias para explicar o uso da aplicação web,
+ bem como uma introdução à aplicação, sua funcionalidade e decisões de design que você tomou.
+- `.github/workflows`: Nesta pasta contém a configuração para a execução do Github Actions.
+- `read-only/`: Nesta pasta contém os testes dos critérios mínimos de aceitação e end-to-end.
 - [`src/index.html`](./src/index.html): este é o ponto de entrada da sua aplicação.
-  Este arquivo deve conter o seu HTML.
-- [`src/style.css`](./src/style.css): este arquivo deve conter as regras de
-estilo. Queremos que você escreva suas próprias regras, portanto, NÃO é
-permitido o uso de frameworks de CSS (Bootstrap, Materialize, etc).
+  Este arquivo contém o HTML.
+- [`src/style.css`](./src/style.css): Neste arquivo contém as regras de
+estilo.
 - [`src/analyzer.js`](./src/analyzer.js): aqui você deve implementar
 o objeto `analyzer`, que já está _exportado_ no _boilerplate_.
 Este objeto (`analyzer`) deve conter seis métodos:
 
-  + `analyzer.getWordCount(text)`: esta função deve retornar a contagem de
+  + `analyzer.getWordCount(text)`: esta função retorna a contagem de
   palavras que estão no parâmetro `text` do tipo `string`.
-  + `analyzer.getCharacterCount(text)`: esta função deve retornar a
+  + `analyzer.getCharacterCount(text)`: esta função retorna a
   contagem de caracteres que estão no parâmetro `text` do tipo `string`.
-  + `analyzer.getCharacterCountExcludingSpaces(text)`: esta função deve
-  retornar a contagem de caracteres excluindo espaços e sinais de pontuação
+  + `analyzer.getCharacterCountExcludingSpaces(text)`: esta função
+  retorna a contagem de caracteres excluindo espaços e sinais de pontuação
   que estão no parâmetro `text` do tipo `string`.
-  + `analyzer.getNumberCount(text)`: esta função deve retornar quantos
+  + `analyzer.getNumberCount(text)`: esta função retorna quantos
   números estão no parâmetro `text` do tipo `string`.
-  + `analyzer.getNumberSum(text)`: esta função deve retornar a soma de todos os
+  + `analyzer.getNumberSum(text)`: esta função retorna a soma de todos os
   números que estão no parâmetro `text` do tipo `string`.
-  + `analyzer.getAverageWordLength(text)`: esta função deve retornar o
+  + `analyzer.getAverageWordLength(text)`: esta função retorna o
   comprimento médio das palavras que estão no parâmetro `text` do tipo
-  `string`. Use 2 casas decimais.
-
-  Para exemplos de uso de cada função, recomendamos ver o arquivo
-  [`test/analyzer.spec.js`](./test/analyzer.spec.js).
+  `string`. Usei 2 casas decimais.
 
   _Nota: para simplificar as funcionalidades, definiremos palavras como grupos
   de caracteres separados por espaços. Por exemplo, as palavras no texto de
-  entrada `Sim, você consegue fazer!` são quatro:_
+  entrada `Sim, você também consegue fazer!` são quatro:_
 
   + _`Sim,`_
   + _`você`_
+  + _`também`_
   + _`consegue`_
   + _`fazer!`_
 
-- [`src/index.js`](./src/index.js): aqui você deve ouvir eventos do DOM,
+- [`src/index.js`](./src/index.js): aqui escuta os eventos do DOM,
 invocar os métodos do objeto `analyzer` conforme necessário e atualizar
 o resultado na IU (interface de usuária).
 - [`test/analyzer.spec.js`](./test/analyzer.spec.js): este arquivo contém os
@@ -170,67 +164,67 @@ testes unitários para os métodos do objeto `analyzer`.
 
 #### Deploy
 
-Fazer com que os sites sejam publicados (ou _deployed_) para que as usuárias da
+Fiz com que os sites sejam publicados (ou _deployed_) para que as usuárias da
 web possam acessá-los é algo comum em projetos de desenvolvimento de software.
 
-Neste projeto, usaremos o _Github Pages_ para implantar nosso site.
+Neste projeto, usei o _Github Pages_ para implantar o site.
 
-O comando `npm run deploy` pode ajudá-lo com essa tarefa e você também pode
+O comando `npm run deploy` ajuda com essa tarefa e você também pode
 consultar a [documentação oficial](https://docs.github.com/pt/pages).
 
 ## 6. Critérios de Aceitação Mínimos do Projeto
 
-A seguir, você encontrará os critérios de aceitação mínimos do projeto
+A seguir, os critérios de aceitação mínimos do projeto
 relacionados a cada objetivo de aprendizado.
 
 ### HTML
 
 - **Uso de HTML semântico**
 
-  + [ ] A aplicação possui um cabeçalho composto por um
+  + [x] A aplicação possui um cabeçalho composto por um
         [`<header>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/header)
         que é pai de um
         [`<h1>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Heading_Elements)
         com o texto `Analisador de texto`. Para que você possa praticar mais, esses
         elementos não podem ter atributos `id`, `name` ou `class`.
 
-  + [ ] A aplicação utiliza um
+  + [x] A aplicação utiliza um
         [`<textarea>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/textarea)
         com o atributo `name` com o valor `user-input` para permitir à usuária
         inserir um texto. Para que você possa praticar mais, este elemento não pode
         ter atributos `id` ou `class`.
 
-  + [ ] A aplicação utiliza uma
+  + [x] A aplicação utiliza uma
         [`<ul>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/ul)
         com 6 filhos [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li),
         um para exibir cada métrica. Para que você possa praticar mais, esses
         elementos não podem ter atributos `id`, `name` ou filhos.
 
-  + [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
+  + [x] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
         para exibir a _contagem de palavras_ deve ter um atributo
         `data-testid` com o valor `word-count`.
 
-  + [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
+  + [x] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
         para exibir a _contagem de caracteres_ deve ter um atributo
         `data-testid` com o valor `character-count`.
 
-  + [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
+  + [x] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
         para exibir a _contagem de caracteres excluindo espaços e sinais de pontuação_
         deve ter um atributo `data-testid` com o valor `character-no-spaces-count`.
 
-  + [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
+  + [x] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
         para exibir a _contagem de números_ deve ter um atributo
         `data-testid` com o valor `number-count`.
 
-  + [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
+  + [x] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
         para exibir a _soma total de números_ deve ter um atributo
         `data-testid` com o valor `number-sum`.
 
-  + [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
+  + [x] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
         para exibir o _comprimento médio das palavras_ deve ter um atributo
         `data-testid` com o valor `word-length-average`.
 
-  + [ ] A aplicação possui um rodapé composto por um
+  + [x] A aplicação possui um rodapé composto por um
         [`<footer>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/footer)
         que é pai de um
         [`<p>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/p)
@@ -238,7 +232,7 @@ relacionados a cada objetivo de aprendizado.
         Para que você possa praticar mais, esses elementos não podem
         ter atributos `id`, `name` ou `class`.
 
-  + [ ] A aplicação utiliza um
+  + [x] A aplicação utiliza um
         [`<button>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/button)
         com o atributo `id` com o valor `reset-button` para permitir à usuária,
         através de um clique, limpar o conteúdo da caixa de texto.
@@ -247,26 +241,26 @@ relacionados a cada objetivo de aprendizado.
 
 - **Uso de seletores CSS**
 
-  + [ ] A aplicação utiliza
+  + [x] A aplicação utiliza
         [`seletores CSS de tipo`](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#type_selectors)
         para estilizar o
         [`<header>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/header)
         e o
         [`<footer>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/footer).
 
-  + [ ] A aplicação utiliza
+  + [x] A aplicação utiliza
         [`seletores CSS de classe`](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#class_selectors)
         para estilizar os
         [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
         mencionados anteriormente.
 
-  + [ ] A aplicação utiliza
+  + [x] A aplicação utiliza
         [`seletores de atributo`](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors/Attribute_selectors)
         para estilizar o
         [`<textarea>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/textarea)
         utilizando o atributo `name`.
 
-  + [ ] A aplicação utiliza
+  + [x] A aplicação utiliza
         [`seletores CSS de ID`](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#id_selectors)
         para estilizar o
         [`<button>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/button)
@@ -299,7 +293,7 @@ relacionados a cada objetivo de aprendizado.
 
 - **Manipulação de eventos do DOM (ouvintes, propagação, delegação)**
 
-  + [ ] A aplicação registra um
+  + [x] A aplicação registra um
         [Event Listener](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener)
         para ouvir o evento `keyup` do `<textarea>` e atualizar as métricas
         quando o texto for digitado na caixa de texto.
@@ -311,7 +305,7 @@ relacionados a cada objetivo de aprendizado.
 
 - **Manipulação dinâmica do DOM**
 
-  + [ ] A aplicação atualiza o atributo
+  + [x] A aplicação atualiza o atributo
         [`textContent`](https://developer.mozilla.org/pt-BR/docs/Web/API/Node/textContent)
         ou
         [`innerHTML`](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/innerHTML)
@@ -321,11 +315,11 @@ relacionados a cada objetivo de aprendizado.
 
 - **Tipos de dados primitivos**
 
-  + [ ] A aplicação converte valores do tipo `string` para o tipo `number`.
+  + [x] A aplicação converte valores do tipo `string` para o tipo `number`.
 
 - **Strings (cadeias de caracteres)**
 
-  + [ ] A aplicação utiliza métodos para manipular strings como
+  + [x] A aplicação utiliza métodos para manipular strings como
         [`split`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/split),
         [`trim`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/trim)
         ou
@@ -338,7 +332,7 @@ relacionados a cada objetivo de aprendizado.
         e
         [`const`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/const).
 
-  + [ ] A aplicação NÃO declara variáveis com `var`.
+  + [x] A aplicação NÃO declara variáveis com `var`.
 
 - **Uso de condicionais (if-else, switch, operador ternário, lógica booleana)**
 
@@ -348,38 +342,38 @@ relacionados a cada objetivo de aprendizado.
 
 - **Uso de loops (while, for, for..of)**
 
-  + [ ] A aplicação utiliza a estrutura
+  + [x] A aplicação utiliza a estrutura
         [`for`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for)
         para criar um loop.
 
 - **Funções (parâmetros, argumentos, retorno)**
 
-  + [ ] O objeto `analyzer` contém um método `getWordCount` para calcular a
+  + [x] O objeto `analyzer` contém um método `getWordCount` para calcular a
         contagem de palavras de um texto.
 
-  + [ ] O objeto `analyzer` contém um método `getCharacterCount` para calcular a
+  + [x] O objeto `analyzer` contém um método `getCharacterCount` para calcular a
         contagem de caracteres de um texto.
 
-  + [ ] O objeto `analyzer` contém um método `getCharacterCountExcludingSpaces`
+  + [x] O objeto `analyzer` contém um método `getCharacterCountExcludingSpaces`
         para calcular a contagem de caracteres excluindo espaços e pontuações
         de um texto.
 
-  + [ ] O objeto `analyzer` contém um método `getNumbersCount` para contar quantos
+  + [x] O objeto `analyzer` contém um método `getNumbersCount` para contar quantos
         números existem em um texto.
 
-  + [ ] O objeto `analyzer` contém um método `getNumbersSum` para calcular a soma
+  + [x] O objeto `analyzer` contém um método `getNumbersSum` para calcular a soma
         dos números em um texto.
 
-  + [ ] O objeto `analyzer` contém um método `getAverageWordLength` para calcular
+  + [x] O objeto `analyzer` contém um método `getAverageWordLength` para calcular
         o comprimento médio das palavras em um texto.
 
 - **Testes unitários (unit tests)**
 
-  + [ ] Todos os testes unitários passam.
+  + [x] Todos os testes unitários passam.
 
 - **Módulos do ECMAScript (ES Modules)**
 
-  + [ ] A aplicação utiliza
+  + [x] A aplicação utiliza
         [`import`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import)
         e
         [`export`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export)
@@ -387,31 +381,31 @@ relacionados a cada objetivo de aprendizado.
 
 - **Uso de linter (ESLINT)**
 
-  + [ ] Ao executar o linter, não são exibidos erros de formato e estilo.
+  + [x] Ao executar o linter, não são exibidos erros de formato e estilo.
 
 - **Uso de identificadores descritivos (Nomenclatura e Semântica)**
 
-  + [ ] O código utiliza identificadores descritivos para variáveis e funções.
+  + [x] O código utiliza identificadores descritivos para variáveis e funções.
 
 ### Controle de Versões (Git e GitHub)
 
 - **GitHub: Criação de conta e repositórios, configuração de chaves SSH**
 
-  + [ ] A estudante criou uma conta no Github.
+  + [x] A estudante criou uma conta no Github.
 
-  + [ ] A estudante configurou sua conta do Github com uma chave SSH.
+  + [x] A estudante configurou sua conta do Github com uma chave SSH.
 
 - **Git: Controle de versões com git (clone, add, commit, push)**
 
-  + [ ] A estudante criou um _fork_ para o projeto.
+  + [x] A estudante criou um _fork_ para o projeto.
 
-  + [ ] A estudante clonou seu repositório usando uma chave SSH.
+  + [x] A estudante clonou seu repositório usando uma chave SSH.
 
-  + [ ] A estudante criou _commits_ e os salvou no Github.
+  + [x] A estudante criou _commits_ e os salvou no Github.
 
 - **GitHub: Implantação com GitHub Pages**
 
-  + [ ] A aplicação está implantada no GitHub Pages.
+  + [x] A aplicação está implantada no GitHub Pages.
 
 ### Foco na Usuária
 
@@ -421,11 +415,11 @@ relacionados a cada objetivo de aprendizado.
 
 - **Projetar em diferentes níveis de fidelidade**
 
-  + [ ] A estudante criou protótipos de baixa fidelidade para a UI (interface gráfica).
+  + [x] A estudante criou protótipos de baixa fidelidade para a UI (interface gráfica).
 
 - **Seguir os princípios básicos do design visual**
 
-  + [ ] Foram consideradas as regras básicas de
+  + [x] Foram consideradas as regras básicas de
         [design visual](https://coda.io/d/Bootcamp-UX-Contenido_dqkqk2rV9Z2/Reglas-basicas-de-diseno-visual_suVcO)
         para projetar a UI (interface gráfica).
 
@@ -441,12 +435,12 @@ que cada componente individual de um programa ou sistema funcione corretamente
 isoladamente. Em outras palavras, cada unidade de código é testada separadamente
 para garantir que atenda aos requisitos e especificações.
 
-Os testes unitários deste projeto executarão os métodos `getWordCount`,
+Os testes unitários deste projeto executam os métodos `getWordCount`,
 `getCharacterCount`, `getCharacterCountExcludingSpaces`, `getNumbersCount`,
-`getNumbersSum` e `getAverageWordLength` com diferentes argumentos e verificarão
+`getNumbersSum` e `getAverageWordLength` com diferentes argumentos e verificam
 se os valores retornados são os esperados.
 
-Você pode executar esses testes com o comando `npm run test` como mostrado
+Executar esses testes com o comando `npm run test` como mostrado
 na imagem a seguir:
 
 ![npm run test](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650584-c8267968-d631-4fbb-b05f-458a970544b7.gif "npm run test")
@@ -460,26 +454,26 @@ do `eslint` chamado `.eslintrc`, que contém informações mínimas sobre o pars
 a ser usado (qual versão do JavaScript/ECMAScript), o ambiente (navegador neste caso)
 e as [regras recomendadas (`eslint:recommended`)](https://eslint.org/docs/rules/).
 Em relação às próprias regras/diretrizes de estilo,
-vamos seguir as recomendações _padrão_ tanto do `eslint` quanto do `htmlhint`.
+seguindo as recomendações _padrão_ tanto do `eslint` quanto do `htmlhint`.
 
 ### Testes de Critérios Mínimos de Aceitação
 
-Esses testes analisarão seus arquivos
+Esses testes analisaram os arquivos
 [`index.html`](src/index.html),
 [`index.js`](src/index.html),
 [`analyzer.js`](src/analyzer.js)
 e
 [`style.css`](src/style.css)
-para verificar se você cumpre os
+para verificar se cumpre os
 [critérios mínimos de aceitação](#6-critérios-de-aceitação-mínimos-do-projeto).
 Cada critério está relacionado a um objetivo de aprendizado.
 
-Você pode executar todos esses testes com o comando `npm run test:oas`
+Podemos executar todos esses testes com o comando `npm run test:oas`
 como mostrado na imagem a seguir:
 
 ![npm run test oas](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650602-f0ca9170-7563-4edc-9e78-874fa012c4fd.gif "npm run test oas")
 
-Você também pode executar os testes de cada grupo de objetivos de aprendizado
+Podemos executar os testes de cada grupo de objetivos de aprendizado
 individualmente com os seguintes comandos:
 
 - `npm run test:oas-html`
@@ -510,7 +504,7 @@ Você pode verificar o resultado desta GitHub Action
 na aba _Actions_ do seu repositório no GitHub,
 como mostrado na seguinte imagem:
 
-![GitHub Action](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650640-a8a8ed26-6f48-4053-8b3b-7dec7e35a9f8.gif "GitHub Action")
+![GitHub Action](https://www.awesomescreenshot.com/video/23747580?key=7eb66a87113f416d4d1ab4bd76828c87 "GitHub Action")
 
 ## 8. Dicas, sugestões e leituras complementares
 
@@ -552,19 +546,17 @@ Junte-se ao canal do Slack [#project-text-analyzer-pt](https://claseslaboratoria
 
 Antes de agendar seu Feedback de Projeto com um coach, certifique-se de que seu projeto:
 
-- [ ] Atende a todos os critérios mínimos de aceitação ao executar `npm run test:oas`
-- [ ] Atende a todos os testes unitários ao executar `npm run test`
-- [ ] Atende a todos os testes _end to end_ ao executar `npm run test:e2e`
-- [ ] Está livre de _erros_ do `eslint` ao executar `npm run test`
-- [ ] Está hospedado no GitHub.
-- [ ] Está implantado no GitHub Pages.
-- [ ] Possui um README com a definição do produto.
+- [x] Atende a todos os critérios mínimos de aceitação ao executar `npm run test:oas`
+- [x] Atende a todos os testes unitários ao executar `npm run test`
+- [x] Atende a todos os testes _end to end_ ao executar `npm run test:e2e`
+- [x] Está livre de _erros_ do `eslint` ao executar `npm run test`
+- [x] Está hospedado no GitHub.
+- [x] Está implantado no GitHub Pages.
+- [x] Possui um README com a definição do produto.
 
 Lembre-se de que você deve fazer uma autoavaliação dos
 _objetivos de aprendizado_ e _habilidades para a vida_ em seu painel do aluno.
 
-Se você não concluiu tudo o que foi mencionado acima, consideramos que você
-não está pronta para sua sessão de Feedback de Projeto.
 
 ## 10. Objetivos de aprendizagem
 
@@ -572,7 +564,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
 ### HTML
 
-- [ ] **Uso de HTML semântico**
+- [x] **Uso de HTML semântico**
 
   <details><summary>Links</summary><p>
 
@@ -582,7 +574,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
 ### CSS
 
-- [ ] **Uso de seletores de CSS**
+- [x] **Uso de seletores de CSS**
 
   <details><summary>Links</summary><p>
 
@@ -590,7 +582,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [CSS Selectors - MDN](https://developer.mozilla.org/pt_BR/docs/Web/CSS/CSS_Selectors)
 </p></details>
 
-- [ ] **Modelo de caixa (box model): borda, margem, preenchimento**
+- [x] **Modelo de caixa (box model): borda, margem, preenchimento**
 
   <details><summary>Links</summary><p>
 
@@ -603,7 +595,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
 ### Web APIs
 
-- [ ] **Uso de seletores de DOM**
+- [x] **Uso de seletores de DOM**
 
   <details><summary>Links</summary><p>
 
@@ -612,7 +604,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [Locating DOM elements using selectors - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
 </p></details>
 
-- [ ] **Manipulação de eventos de DOM (listeners, propagação, delegação)**
+- [x] **Manipulação de eventos de DOM (listeners, propagação, delegação)**
 
   <details><summary>Links</summary><p>
 
@@ -622,7 +614,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [Objeto Event](https://developer.mozilla.org/pt-BR/docs/Web/API/Event)
 </p></details>
 
-- [ ] **Manipulação dinâmica de DOM**
+- [x] **Manipulação dinâmica de DOM**
 
   <details><summary>Links</summary><p>
 
@@ -636,14 +628,14 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
 ### JavaScript
 
-- [ ] **Tipos de dados primitivos**
+- [x] **Tipos de dados primitivos**
 
   <details><summary>Links</summary><p>
 
   * [Valores Primitivos - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Data_structures#valores_primitivos)
 </p></details>
 
-- [ ] **Strings (cadeias de caracteres)**
+- [x] **Strings (cadeias de caracteres)**
 
   <details><summary>Links</summary><p>
 
@@ -651,7 +643,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [String — Cadeia de caracteres - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String)
 </p></details>
 
-- [ ] **Variáveis (declaração, atribuição, escopo)**
+- [x] **Variáveis (declaração, atribuição, escopo)**
 
   <details><summary>Links</summary><p>
 
@@ -659,7 +651,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [Variáveis](https://curriculum.laboratoria.la/pt/topics/javascript/basics/variables)
 </p></details>
 
-- [ ] **Uso de condicionais (if-else, switch, operador ternário, lógica booleana)**
+- [x] **Uso de condicionais (if-else, switch, operador ternário, lógica booleana)**
 
   <details><summary>Links</summary><p>
 
@@ -667,7 +659,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [Tomando decisões no seu código — condicionais - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/conditionals)
 </p></details>
 
-- [ ] **Uso de laços (while, for, for..of)**
+- [x] **Uso de laços (while, for, for..of)**
 
   <details><summary>Links</summary><p>
 
@@ -675,7 +667,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [Laços e iterações - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration)
 </p></details>
 
-- [ ] **Funções (params, args, return)**
+- [x] **Funções (params, args, return)**
 
   <details><summary>Links</summary><p>
 
@@ -685,14 +677,14 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [Funções — blocos reutilizáveis de código - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Functions)
 </p></details>
 
-- [ ] **Testes unitários (unit tests)**
+- [x] **Testes unitários (unit tests)**
 
   <details><summary>Links</summary><p>
 
   * [Introdução ao Jest - Documentação oficial](https://jestjs.io/docs/pt-BR/getting-started)
 </p></details>
 
-- [ ] **Módulos de ECMAScript (ES modules)**
+- [x] **Módulos de ECMAScript (ES modules)**
 
   <details><summary>Links</summary><p>
 
@@ -700,19 +692,19 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [export - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export)
 </p></details>
 
-- [ ] **Uso de linter (ESLINT)**
+- [x] **Uso de linter (ESLINT)**
 
-- [ ] **Uso de identificadores descritivos (Nomenclatura e Semântica)**
+- [x] **Uso de identificadores descritivos (Nomenclatura e Semântica)**
 
 ### Controle de Versões (Git e GitHub)
 
-- [ ] **Git: Instalação e configuração**
+- [x] **Git: Instalação e configuração**
 
-- [ ] **Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)**
+- [x] **Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)**
 
-- [ ] **GitHub: Criação de contas e repositórios, configuração de chave SSH**
+- [x] **GitHub: Criação de contas e repositórios, configuração de chave SSH**
 
-- [ ] **GitHub: Implantação com GitHub Pages**
+- [x] **GitHub: Implantação com GitHub Pages**
 
   <details><summary>Links</summary><p>
 
@@ -721,13 +713,13 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
 ### Centrado no usuário
 
-- [ ] **Desenhar e desenvolver um produto ou serviço colocando as usuárias no centro**
+- [x] **Desenhar e desenvolver um produto ou serviço colocando as usuárias no centro**
 
 ### Design de produto
 
-- [ ] **Design em diferentes níveis de fidelidade**
+- [x] **Design em diferentes níveis de fidelidade**
 
-- [ ] **Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)**
+- [x] **Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)**
 
 ## 11. Funcionalidades opcionais
 
