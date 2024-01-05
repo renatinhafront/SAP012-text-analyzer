@@ -120,3 +120,6 @@ consultar a [documentação oficial](https://docs.github.com/pt/pages).
 [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/renata-saraiva-santos/)
 
 Muito Obrigada!!
+
+## Created by
+<img width="100" src="https://github.com/renatinhafront/SAP012-text-analyzer/assets/107226201/694ae420-4832-4f8f-903a-478b7446ec59"/>
