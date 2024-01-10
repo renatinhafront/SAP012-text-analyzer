@@ -24,7 +24,6 @@ header {
   background-color: rgb(223, 156, 224);
   color: white;
   border-radius: 10px;
-
 }
 
 textarea[name="user-input"] {
