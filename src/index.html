@@ -12,25 +12,21 @@
 <body>
   <main id="container">
 
-    <div>
-      <header>
+    <header>
         <h1>Analizador de texto</h1>
-      </header>
-    </div>
+    </header>
 
-    <nav>
-      <ul>
+    <ul>
         <li class="contador" data-testid="word-count"></li>
         <li class="contador" data-testid="character-count"></li>
         <li class="contador" data-testid="character-no-spaces-count"></li>
         <li class="contador" data-testid="number-count"></li>
         <li class="contador" data-testid="number-sum"></li>
         <li class="contador" data-testid="word-length-average"></li>
-      </ul>
-    </nav>
+    </ul>
 
     <div>
-      <textarea name="user-input" minlength=" " placeholder="Escreva aqui..."></textarea>
+      <textarea name="user-input" minlength=" "  style="resize: none" placeholder="Escreva aqui..."></textarea>
     </div>
 
     <button id="reset-button">Limpar</button>
@@ -44,3 +40,4 @@
 </body>
 
 </html>
+
