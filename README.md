@@ -80,8 +80,9 @@ A lista de funcionalidades é a seguinte:
 
 3. A aplicação permite limpar o conteúdo da caixa de texto ao clicar
     em um botão.
+   
+![tela](https://github.com/renatinhafront/text-analyzer-lab/assets/107226201/2423cd95-b23a-4327-90f9-cf024a688551)
 
-![tela](https://github.com/renatinhafront/text-analyzer-lab/assets/107226201/f5b7483c-e6ab-4e1f-865d-2d6a4e915e7d)
 
 ## 5. Status do projeto
 
