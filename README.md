@@ -26,7 +26,7 @@
 
 ## 2. Preâmbulo
 
-<img width="1365" alt="Captura de Tela 2024-01-03 às 19 13 24" src="https://github.com/renatinhafront/SAP012-text-analyzer/assets/107226201/b7514063-a4e8-4956-942b-5d1958e92061">
+<img width="1365" alt="Captura de Tela 2024-01-03 às 19 13 24" src="https://github.com/renatinhafront/text-analyzer-lab/assets/107226201/061474f7-6eaf-4e58-8b52-4c573a7362e3">
 
 
 ----
@@ -81,7 +81,7 @@ A lista de funcionalidades é a seguinte:
 3. A aplicação permite limpar o conteúdo da caixa de texto ao clicar
     em um botão.
 
-![tela](https://github.com/renatinhafront/SAP012-text-analyzer/assets/107226201/8dbdf027-36d2-42b1-acda-0077f14547a6)
+![tela](https://github.com/renatinhafront/text-analyzer-lab/assets/107226201/f5b7483c-e6ab-4e1f-865d-2d6a4e915e7d)
 
 ## 5. Status do projeto
 
